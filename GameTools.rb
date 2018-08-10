@@ -67,9 +67,9 @@ module GameTools
 		#determine if a square exists for each knight movement
 		valid_moves = []
 		coord_shifts = [[2, -1], [2, 1],
-						[1, 2], [-1, 2],
-						[-2, 1], [-2, -1],
-						[1, -2], [-1, -2]]
+				[1, 2], [-1, 2],
+				[-2, 1], [-2, -1],
+				[1, -2], [-1, -2]]
 		coord_shifts.each do |shift|
 			new_coord = combine_coord(start, shift)
 			if game.squares[new_coord]

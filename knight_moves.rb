@@ -15,10 +15,8 @@ def knight_moves
 
 	start_and_stop = select_squares
 	start_coord = start_and_stop[0]
-	
 	stop_coord = start_and_stop[1]
 
-	
 	board = GameBoard.new
 	start_square = board.squares[start_coord]
 	stop_square = board.squares[stop_coord]
@@ -29,7 +27,7 @@ def knight_moves
 	board.draw_board_with_path(moves)
 	puts "Start position: " + start_coord.to_s
 	puts "Stop position: " + stop_coord.to_s
-	
+
 	move_coords = ''
 	moves.each do |square|
 		move_coords += square.coordinates.to_s + " "
