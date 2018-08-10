@@ -4,7 +4,7 @@ https://www.theodinproject.com/courses/ruby-programming/lessons/data-structures-
 ——————————————————————————————————————————————————————————
 The problem:  
 
-Write a program, that, given a position of a knight on a chessboard in coordinate format, find the shortest number of moves it takes to move to another given position on the board.
+Write a program that, given a position of a knight on a chessboard in coordinate format, finds the shortest number of moves it takes to move to another given position on the board.
 
 
 Files:
